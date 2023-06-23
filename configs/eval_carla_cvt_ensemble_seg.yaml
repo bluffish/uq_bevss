@@ -1,0 +1,10 @@
+type: 'ensemble'
+backbone: 'cvt'
+dataset: 'carla'
+logdir: './carla/cvt_ensemble_seg'
+gpus: [0]
+batch_size: 8
+num_workers: 16
+model_path: 'carla/cvt_ensemble_seg/model10000.pt'
+tsne: false
+seg: true

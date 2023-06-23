@@ -1,0 +1,19 @@
+lss_enn:
+  config: 'configs/eval_carla_lss_enn.yaml'
+  path: 'carla/lss_enn/model13000.pt'
+  label: 'LSS Evidential'
+
+lss_postnet:
+  config: 'configs/eval_carla_lss_postnet.yaml'
+  path: 'carla/lss_postnet/model13000.pt'
+  label: 'LSS Postnet'
+
+lss_dropout:
+  config: 'configs/eval_carla_lss_dropout.yaml'
+  path: 'carla/lss_dropout/model13000.pt'
+  label: 'LSS Dropout'
+
+lss_ensemble:
+  config: 'configs/eval_carla_lss_ensemble.yaml'
+  path: 'carla/lss_ensemble/model13000.pt'
+  label: 'LSS Ensemble'

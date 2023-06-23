@@ -1,0 +1,10 @@
+type: 'dropout'
+backbone: 'cvt'
+dataset: 'carla'
+logdir: './carla/cvt_dropout_seg'
+gpus: [0]
+batch_size: 8
+num_workers: 16
+model_path: 'carla/cvt_dropout_seg/model10000.pt'
+tsne: false
+seg: true

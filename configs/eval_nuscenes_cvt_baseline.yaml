@@ -1,0 +1,10 @@
+type: 'baseline'
+backbone: 'cvt'
+dataset: 'nuscenes'
+logdir: './nuscenes/cvt_baseline'
+gpus: [0]
+batch_size: 8
+num_workers: 16
+model_path: 'nuscenes/cvt_baseline/model10000.pt'
+tsne: false
+seg: false

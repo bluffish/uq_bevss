@@ -1,0 +1,20 @@
+
+cvt_baseline_gtseg:
+  config: 'configs/eval_carla_cvt_baseline_seg.yaml'
+  path: 'carla/cvt_baseline_gtseg/model10000.pt'
+
+cvt_enn_gtseg:
+  config: 'configs/eval_carla_cvt_enn_seg.yaml'
+  path: 'carla/cvt_enn_gtseg/model8000.pt'
+
+cvt_postnet_gtseg:
+  config: 'configs/eval_carla_cvt_postnet_seg.yaml'
+  path: 'carla/cvt_postnet_gtseg/model7000.pt'
+
+cvt_dropout_gtseg:
+  config: 'configs/eval_carla_cvt_dropout_seg.yaml'
+  path: 'carla/cvt_dropout/model8000.pt'
+
+cvt_ensemble_gtseg:
+  config: 'configs/eval_carla_cvt_ensemble_seg.yaml'
+  path: 'carla/cvt_ensemble/model7000.pt'

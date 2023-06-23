@@ -1,0 +1,10 @@
+type: 'postnet'
+backbone: 'cvt'
+dataset: 'nuscenes'
+logdir: './nuscenes/cvt_postnet'
+gpus: [0]
+batch_size: 8
+num_workers: 16
+model_path: 'nuscenes/cvt_postnet/model20000.pt'
+tsne: false
+seg: false

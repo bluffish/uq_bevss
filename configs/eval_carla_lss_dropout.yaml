@@ -1,0 +1,10 @@
+type: 'dropout'
+backbone: 'lss'
+dataset: 'carla'
+logdir: './carla/lss_dropout'
+gpus: [0]
+batch_size: 8
+num_workers: 16
+model_path: 'carla/lss_dropout/model13000.pt'
+tsne: false
+seg: false

@@ -1,0 +1,12 @@
+type: 'ensemble'
+backbone: 'cvt'
+dataset: 'carla'
+logdir: 'carla/cvt_ensemble'
+gpus: [0]
+batch_size: 32
+num_workers: 16
+weight_decay: 0.0000001
+learning_rate: 0.004
+num_steps: 10000
+val_step: 1000
+seg: false

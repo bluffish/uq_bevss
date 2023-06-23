@@ -1,0 +1,26 @@
+
+cvt_baseline_seg:
+  config: 'configs/eval_carla_cvt_baseline_seg.yaml'
+  path: 'carla/cvt_baseline_seg/best_iou.pt'
+  label: 'CVT Baseline w/ Seg.'
+
+cvt_enn_seg:
+  config: 'configs/eval_carla_cvt_enn_seg.yaml'
+  path: 'carla/cvt_enn_seg/best_iou.pt'
+  label: 'CVT Ensemble w/ Seg.'
+
+cvt_postnet_seg:
+  config: 'configs/eval_carla_cvt_postnet_seg.yaml'
+  path: 'carla/cvt_postnet_seg/best_iou.pt'
+  label: 'CVT Postnet w/ Seg.'
+
+cvt_dropout_seg:
+  config: 'configs/eval_carla_cvt_dropout_seg.yaml'
+  path: 'carla/cvt_dropout_seg/best_iou.pt'
+  label: 'CVT Dropout w/ Seg.'
+
+cvt_ensemble_seg:
+  config: 'configs/eval_carla_cvt_ensemble_seg.yaml'
+  path: 'carla/cvt_ensemble_gtseg/best_iou.pt'
+  gt: True
+  label: 'CVT Ensemble w/ Seg.'

@@ -1,0 +1,25 @@
+
+lss_baseline:
+  config: 'configs/eval_carla_lss_baseline_seg.yaml'
+  path: 'carla/lss_baseline_seg/model15000.pt'
+  label: 'LSS Baseline w/ Seg.'
+
+lss_enn:
+  config: 'configs/eval_carla_lss_enn_seg.yaml'
+  path: 'carla/lss_enn_seg/model15000.pt'
+  label: 'LSS Evidential w/ Seg.'
+
+lss_postnet:
+  config: 'configs/eval_carla_lss_postnet_seg.yaml'
+  path: 'carla/lss_postnet_seg/model14000.pt'
+  label: 'LSS Postnet w/ Seg'
+
+lss_dropout:
+  config: 'configs/eval_carla_lss_dropout_seg.yaml'
+  path: 'carla/lss_dropout_seg/model13000.pt'
+  label: 'LSS Dropout w/ Seg.'
+
+lss_ensemble:
+  config: 'configs/eval_carla_lss_ensemble_seg.yaml'
+  path: 'carla/lss_ensemble_seg/model19000.pt'
+  label: 'LSS Ensemble w/ Seg.'

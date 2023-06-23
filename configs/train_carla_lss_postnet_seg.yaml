@@ -1,0 +1,12 @@
+type: 'postnet'
+backbone: 'lss'
+dataset: 'carla'
+logdir: 'carla/lss_postnet_gtseg'
+gpus: [7]
+batch_size: 32
+num_workers: 16
+weight_decay: 0.0000001
+learning_rate: 0.001
+num_steps: 15000
+val_step: 1000
+seg: True

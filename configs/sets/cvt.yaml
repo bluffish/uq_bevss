@@ -1,0 +1,25 @@
+
+cvt_baseline:
+  config: 'configs/eval_carla_cvt_baseline.yaml'
+  path: 'carla/cvt_baseline/model10000.pt'
+  label: "CVT Baseline"
+
+cvt_enn:
+  config: 'configs/eval_carla_cvt_enn.yaml'
+  path: 'carla/cvt_enn/model8000.pt'
+  label: "CVT Evidential"
+
+cvt_postnet:
+  config: 'configs/eval_carla_cvt_postnet.yaml'
+  path: 'carla/cvt_postnet/model7000.pt'
+  label: "CVT Postnet"
+
+cvt_dropout:
+  config: 'configs/eval_carla_cvt_dropout.yaml'
+  path: 'carla/cvt_dropout/model8000.pt'
+  label: "CVT Dropout"
+
+cvt_ensemble:
+  config: 'configs/eval_carla_cvt_ensemble.yaml'
+  path: 'carla/cvt_ensemble/model7000.pt'
+  label: "CVT Ensemble"
